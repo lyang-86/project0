@@ -1,0 +1,18 @@
+h1 {
+  font-family: Helvetica,Arial,Sans-serif;
+  color: #ff9681;
+  text-align:center;
+}
+body {
+  background-color: #eeeeee;
+}
+p {
+  text-align: center;
+}
+.photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px;
+}
