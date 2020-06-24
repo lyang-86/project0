@@ -16,3 +16,24 @@ p {
   width: 50%;
   padding: 15px;
 }
+#intro {
+  font-family: Helvetica,Arial,Sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height:200px;
+  width:80%;
+  background-color: #ff9681;
+}
+.center {
+    margin:auto;
+    width:80%;
+    padding:50px;
+    text-align:center;
+}
+@media screen and (max-width: 64.06125em)
