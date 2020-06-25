@@ -1,0 +1,47 @@
+h1, h2 {
+  font-family: Helvetica,Arial,Sans-serif;
+  text-align: center;
+  color:#278090;
+}
+body {
+  background-color: #eeeeee;
+}
+#ingredient {
+  margin-left: auto;
+  margin-right:auto;
+  background-color: #ffffff;
+}
+th {
+  font-size: 18px;
+}
+td {
+
+}
+th, td {
+  padding: 10px;
+  text-align:left;
+  font-size: 100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+p, iframe {
+  text-align:center;
+}
+ol {
+  font-size: 100%;
+  text-align: left;
+  list-style-position: inside;
+}
+@media print {
+  .screen {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  #ingredient::before {
+    margin:0;
+    width:100%;
+  }
+}
